@@ -1,0 +1,32 @@
+Last Lecture
+1 Introduction
+2 Environment setup
+	1 node js
+	2 vs code editor
+	
+
+Today Lecture
+1 Difference Between Angular Js & Angular 2+
+2 What is Typescript?
+3 Advantages & disadvantages
+4 vs code overview
+5 Simple a pgm typescript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
