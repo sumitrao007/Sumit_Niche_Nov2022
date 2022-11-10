@@ -1,0 +1,52 @@
+Last Lecture
+1 Difference Between Angular Js & Angular 2+
+	- object based lang / OOPS based
+	- MVC / MVW 
+	- memory leakage / less memory leakage so it is improve a performance
+	- it does not support any OOPS concept/ it is support
+	- mobile comunity is not support / it is supported
+	- js based / typescript 
+2 What is Typescript?
+	typescript = ecma script standard + ecma script version (js)+ Additional features (OOPS concept,module)
+	
+3 Advantages & disadvantages
+	1 static typeying
+	2 compile time error
+	3 support OOPS
+	disadvantages
+	1 borowres does not understand 
+		tsc compiler => it tramscompile ur .ts file into .js file 
+4 vs code overview
+	
+5 Simple a pgm typescript
+	demo1.ts
+	console.log("....");
+	
+	tsc demo1.ts & node demo1.js 
+
+Today Lecture
+1 Variable
+2 data types
+3 Type Assertion
+4 Operators
+5 control statement
+6 loop statement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
