@@ -1,0 +1,61 @@
+Last Lecture
+1 Splice method
+	let a:number[]=[2,3,4];
+	a.splice(2,0,45);
+	a.splice(2,0,45,55);
+	a.splice(2,1);
+	a.splice(2,3);
+	a.splice(2,1,100);
+	a.splice(2,1,45,89);
+2 slice
+	let arr=a.slice(1,7);
+	
+3 map
+	let temp=a.map((myvalue)=>{
+		return (myvalue*myvalue);
+	})
+4 destructing/derefrence of array
+	let arr=[];
+	
+	let [t1,t2,t3]=arr;
+	let [s1,...arr]=arr1;
+	
+	
+5 Shallow copy & deep copy
+	let a=10;
+	let b=a;
+	b=30;
+	
+	let arr=[];
+	let b=arr;
+	console.log(a b);
+	b[0]=200;
+	console.log(a b);
+	
+	let arr=[];
+	let [...c]=arr;
+	
+	
+
+Today Lecture
+1 Swapping variables without using 3rd variables (Js interview Question)
+2 Functions that return multiple values (JS interview Question)
+3 Json Object
+4 Array of Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
