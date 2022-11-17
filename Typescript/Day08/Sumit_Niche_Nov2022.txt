@@ -1,0 +1,99 @@
+Last Lecture
+1 Swapping variables without using 3rd variables (Js interview Question)
+	let a=10;
+	let b=20;
+	[a,b]=[b,a];
+	
+2 Functions that return multiple values (JS interview Question)
+	function operation(a:number,b:number){
+		return [a+b,a-b,a*b];
+	}
+	
+	let [add,sub.mul]=operation(5,3);
+	
+3 Json Object
+	let jsonobj={
+		id:9,
+		fname:'sumit',
+		lname:'..'
+	}
+	1 dot operator
+	2 square operator
+	jsonobj.id=89,
+	jsonobj.fname
+	
+	2 
+		jsonobj["id"]=10;
+		jsonobj['fname']
+4 Array of Object
+	let arrobj=[
+		{
+			id:9,
+			fname:'sumit',
+			...,
+			country:{
+				cid:1,
+				cname:'India'
+			},
+			month:["jan","feb","march"],
+			result:[
+				{
+					subj:'m1',
+					marks:41
+				},
+				{
+					subj:'m2',
+					marks:41
+				},
+				{
+					subj:'m3',
+					marks:41
+				}
+			]
+		},
+		{
+			id:9,
+			fname:'sumit',
+			...
+		},
+		{
+			id:9,
+			fname:'sumit',
+			...
+		}
+	]
+	
+	for(let i=0;i<arrobj.length;i++){
+		console.log(
+			id :: ${arrobj[i].id}
+			country :: ${arrobj[i].country.cname}
+			month :: ${arrobj[i].month.join("  ")}
+			
+		arrobj[i].result.forEach((item)=>{
+				item.subj,item.marks
+		})
+	}
+
+Today Lecture
+1 Class, Object,property,method
+2 constructor
+3 access specifier
+4 access in same pkg 
+5 access in different pkg 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
