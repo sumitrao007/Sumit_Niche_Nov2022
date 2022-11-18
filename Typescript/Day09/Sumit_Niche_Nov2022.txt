@@ -1,0 +1,79 @@
+Last Lecture
+1 Class, Object,property,method
+	
+	export class Myclass{
+		private id:number;
+		protected fname:string;
+		....
+		
+		constructor(id:number,f:string){
+			this.id=id;
+			this.fname=f;
+			....
+		}
+		
+		display(){
+			console.log(`
+				Id    ${this.id}
+				fname ${this.fname}
+			`)
+		}
+		
+	}
+	
+	let obj=new Myclass(9,'sumit');
+	
+	obj.display();
+	
+	
+	export function add(a:number,b:number):number{
+		return (a+b);
+	}
+	
+	
+	demo2.ts
+	import {Myclass,add} from './demo1';
+	
+	let obj=new Myclass(9,'sumit');
+	
+	obj.display();
+	
+	
+	
+	myfolder
+	demo3.ts
+	import {Myclass} from '../day08/demo1';
+	
+	
+	
+2 constructor
+3 access specifier
+4 access in same pkg 
+5 access in different pkg 
+
+Today Lecture
+1 Inheritance 
+	1 single
+	2 multilevel 
+	3 hierachical
+2 method override
+3 interface
+4 Has a relationship
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
