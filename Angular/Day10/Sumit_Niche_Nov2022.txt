@@ -1,0 +1,98 @@
+Last Lecture
+1 Inheritance 
+	1 single
+	2 multilevel 
+	3 hierachical
+2 method override
+	export class Shape{
+		Myarea(){
+		....
+		}
+	}
+	
+	export class Circle extends Shape{
+		
+		radius:number,area:number;
+		
+		constructor(...){
+			super();
+			....
+		}
+		
+		Myarea(){
+		this.area=3.14*this.radius*this.radius;
+		
+		}
+		
+		display(){
+			...
+		}
+	}
+	
+	
+	export class Rectangle extends Shape{
+		l,b,area
+		Myarea(){
+		...
+		}
+	}
+	
+	
+3 interface
+	interface Employee{
+		fname:string;
+		lname:string;
+		fullname?:string;
+		
+		display();
+		
+	}
+	
+	export class EmployeeDetails implments Employee{
+	
+		fname:string;
+		lname:string;
+		salary:number;
+		dept:Department;
+		
+		
+			constructor(....,role:string){
+			...
+				this.dept=new Department(r)
+			}
+			
+		display(){
+		.....
+		this.dept.getRole()
+		}
+		
+	}
+	
+	export class Department{
+		private role:string;
+		
+		//...
+	}
+	
+4 Has a relationship
+
+Today Lecture
+1 Angular 12 installation
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
