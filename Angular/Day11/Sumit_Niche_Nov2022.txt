@@ -1,0 +1,47 @@
+Last Lecture
+1 Angular 12 installation
+
+Today Lecture
+1 Application Flow
+2 Component creation manually
+3 Component creation through cli
+4 Data Binding
+	- data flow from component to view file 
+	1 String Interpolation
+	2 Property Binding
+	3 Style Binding
+	4 Class Binding
+5 String interpolation
+
+	component 
+		1 view file => .html 
+		2 component file => .ts
+		3 stylesheet => .css file 
+		4 spec.ts => testing 
+
+metadata =>
+	extra information about component
+		- we can mentioned a view file of that component
+		- we can mentioned a css file of that component
+		- we can mentioned a selector 
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
