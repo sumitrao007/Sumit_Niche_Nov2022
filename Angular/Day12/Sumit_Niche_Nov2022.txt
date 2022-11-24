@@ -1,0 +1,76 @@
+Last Lecture
+1 Application Flow
+2 Component creation manually
+	employee.ts
+		@Component({
+			selector:'app-employee',
+			templateUrl:..,
+			styleUrls:['']
+		})
+		export class EmployeeComponet{
+		
+		}
+		
+		app.module.ts
+		declaration:[EmployeeComponet]
+		
+		app.component.html
+		<app-employee>
+3 Component creation through cli
+	ng g c student
+	employee.html
+	<app-student>
+4 Data Binding
+	- data flow from component to view file 
+	1 String Interpolation
+	2 Property Binding
+	3 Style Binding
+	4 Class Binding
+5 String interpolation
+
+	<h2> {{name}}
+	<img src=" {{imgurl}} " >
+	
+	.ts 
+	name:string='sumit';
+	
+	imgurl:sting='../../assests/bg.jpg'
+
+	component 
+		1 view file => .html 
+		2 component file => .ts
+		3 stylesheet => .css file 
+		4 spec.ts => testing 
+
+metadata =>
+	extra information about component
+		- we can mentioned a view file of that component
+		- we can mentioned a css file of that component
+		- we can mentioned a selector 
+
+
+
+Today Lecture
+1 Property Binding
+2 String Interpolation VS Property Binding
+3 Style Binding
+4 class Binding
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
