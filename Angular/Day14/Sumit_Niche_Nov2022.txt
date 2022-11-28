@@ -1,0 +1,76 @@
+Last Lecture
+1  Event Binding
+	- data/request flow from view file to component
+2 click
+	<button (click)="onClick()">Click
+	.ts file
+	count:number=0;
+	onClick(){
+		if(this.count==0)
+		{
+			console.log("...")
+			this.count++;
+		}
+	}
+	<img (click)="onImage()">
+3 $event
+	- it is special variable of angular
+	- it gives current dom element information
+	
+		<button  value="..." (click)="onsend($event)">
+		
+		.ts file
+		onsend(myevent:any){
+			....
+			myevent.target.value
+		}
+	
+4 Template ref variable
+	<input #inputname >
+	<button (click)="onClick(inputname.value)">
+	
+	onClick(myvalue:string){
+	.....
+	}
+	
+	
+	onClick(myname:any){
+		.....
+		myname.value ;
+		myname.style.background='green';
+		myname.style.color='white'
+	}
+
+Today Lecture
+1 Real Example
+2 change event 
+3 key up event
+4 key down event
+5 Event filtering
+6 Two way binding	
+	ngModel 
+		- it is attribute directive
+		- [()] => banana in the box 
+		- [(ngModel)]="propertyname"
+		- FormsModule in app.module.ts file 
+		- u can use any htmk element 
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
