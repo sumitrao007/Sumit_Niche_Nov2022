@@ -1,0 +1,11 @@
+<p>eventbinding3 works!</p>
+
+<button (click)="result=8+8" >Addition</button>
+
+<h2> {{result}} </h2> <br><br>
+
+<input #mydate type="date" > <br><br>
+<button (click)="onSend(mydate.value)">Send</button> <br><br>
+
+<input [(ngModel)]="mydate1"  type="date" > <br><br>
+<button (click)="onSend1()">Send</button>

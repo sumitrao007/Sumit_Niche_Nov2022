@@ -1,0 +1,58 @@
+Last Lecture
+1 Real Example
+	<input #num1>
+	<input #num2>
+	<button (click)="onAddition(num1.value,num2.value)">
+	<input [value]='result'>
+	.ts 
+	onAddition(num1:any,num2:any){
+		let n1=+num1;
+		let n2=+num2;
+		this.result=n1+n2;
+		
+	}
+2 change event 
+	<input #name (change)="onChange(name)">
+	.ts file
+	onChange(myname:any){
+	...
+	myname.style.background='green';
+	}
+3 key up event
+	<input (keyup)="onKeyup()">
+4 key down event
+	<input (keydown)="onKeydown()">
+5 Event filtering
+	<input (keyup.enter)="onEnterKey()"
+6 Two way binding	
+	ngModel 
+		- it is attribute directive
+		- [()] => banana in the box 
+		- [(ngModel)]="propertyname"
+		- FormsModule in app.module.ts file 
+		- u can use any html element 
+
+
+Today Lecture
+1 Event Binding without event handler
+2 if directive
+3 for directive
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
