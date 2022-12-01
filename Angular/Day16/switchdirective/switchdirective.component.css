@@ -1,0 +1,15 @@
+div{
+
+    width: 350px;
+    height: 250px;
+
+}
+
+.defaultcolor1{
+    background: black;
+    color: white;
+}
+.defaultcolor2{
+    background: orange;
+    color: black;
+}

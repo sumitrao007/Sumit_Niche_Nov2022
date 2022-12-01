@@ -1,0 +1,38 @@
+Last Lecture
+1 for directive continue
+2 Mouse event
+	mouseover
+	mouseout
+	
+3 Track by
+
+Today Lecture
+1 Switch directive
+2 component interaction
+	- we can send data(number,string,boolean,json,array,array of object or class or interface) one component to another component
+	- to establish parent-child relationship
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
