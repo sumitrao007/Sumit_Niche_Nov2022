@@ -1,0 +1,11 @@
+<p>child2 works!</p>
+
+<!-- <button (click)="onSend()" >Send</button> -->
+
+<label for="">First name :: </label>
+<input #fname type="text" placeholder="Enter the Fname"><br><br>
+<label for="">Last name :: </label>
+<input #lname type="text" placeholder="Enter the Lname"><br><br>
+<label for="">Salary :: </label>
+<input #sal type="number" placeholder="Enter the Salary"><br><br>
+<button (click)="onSubmit(fname.value,lname.value,sal.value)" >Submit</button>

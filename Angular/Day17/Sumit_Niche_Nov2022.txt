@@ -1,0 +1,70 @@
+Last Lecture
+1 Switch directive
+	<input #inputcolor> 
+	<button (click)="onSend(inputcolor.value)">
+	
+	.ts file 
+	onSend(coloname:string){
+		this.choice=colorname.trim().toLowerCase();
+	}
+	
+	.htmml
+	div [ngSwitch]="choice">
+		div *ngSwitchCase="'red'"
+			[style.background]="choice"
+		>....
+		div *ngSwitchCase="'green'">....
+		..
+		div *ngSwitchDefault
+		[style.background]="choice==''?'black':'orange'"
+		> ...
+2 component interaction
+	- we can send data(number,string,boolean,json,array,array of object or class or interface) one component to another component
+	- to establish parent-child relationship
+	
+	parent 
+		parent.ts
+		strdata:string='';
+		
+		parent.html 
+		<app-child1 [ParentStrdata]=strdata>
+	child.ts
+	@Input() ParentStrdata:string='';
+	
+	{{ParentStrdata}}
+	app.component.html 
+	
+	
+	
+	<app-parent>
+3 @Input decorator
+	- parent data can be send to child 
+
+
+Today Lecture
+1 @Output Decorator
+	- i u want send data from child to parent 
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
