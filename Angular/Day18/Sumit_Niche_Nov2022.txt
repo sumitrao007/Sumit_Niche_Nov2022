@@ -1,0 +1,48 @@
+Last Lecture
+1 @Output Decorator
+	- u want send data from child to parent 
+	parent.html 
+	
+	{{childstrdata}}
+	
+	<app-child2 (childstrEvent)="childstrdata=$event" >
+	
+	child2 .ts
+	
+	strdata:string='...';
+	@Output childstrEvent=new EvenEmitter();
+	
+	onSend(){
+		this.childstrEvent.emit(this.strdata);
+	}
+	
+
+Today Lecture
+1 @ViewChild
+	1 u can access parent html element
+	2 u can access child property as well as method in parent compoent
+	
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
