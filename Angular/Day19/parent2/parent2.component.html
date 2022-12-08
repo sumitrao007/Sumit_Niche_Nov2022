@@ -1,0 +1,18 @@
+<p>parent2 works!</p>
+<hr>
+
+<!-- <app-child4>
+    <label for=""> {{labelName}} :: &nbsp;&nbsp; </label>
+    <input #email type="text" (change)="onChange(email)" placeholder="Enter the Email "><br><br>
+</app-child4> -->
+<br>
+
+<!-- <app-child4>
+    <label for=""> {{'Password'}} :: &nbsp;&nbsp; </label>
+    <input #email type="text" (change)="onChange(email)" placeholder="Enter the Email "><br><br>
+</app-child4> -->
+
+<app-child4 *ngFor="let item of htmlelement;index as i">
+    <label for=""> {{item.labelname}} :: &nbsp;&nbsp; </label>
+    <input  [type]="item.type" id=" {{'element'+i}} " (change)="onChange(i)" placeholder=" {{item.placeholdename}} "><br><br>
+</app-child4>

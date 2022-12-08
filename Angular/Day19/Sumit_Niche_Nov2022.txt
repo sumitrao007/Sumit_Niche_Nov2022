@@ -1,0 +1,72 @@
+Last Lecture
+1 @ViewChild
+	1 u can access parent html element
+		.html
+		<div #mydiv>
+		....
+		
+		.ts 
+		AfterViewInit
+		
+		@ViewChild('mydiv') accessdiv:ElementRef;
+		
+		ngAfterViewInit(){
+			....
+			this.accessdiv.nativeElement.className='..'
+		}
+		
+	2 u can access child property as well as method in parent compoent
+	
+		child3.html
+		<h2> {{username}}
+		<button (click)="onAlert()"> click
+		
+		.ts 
+		username='default name '
+		onAlert(){
+		alert(this.username)
+		}
+		
+		parent .ts 
+		
+		@ViewChild(Child3) childaccess:Child3;
+		
+		onProperty(){
+			this.childaccess.username='Sumit';
+		}
+		
+		onMethod(){
+			this.childaccess.onAlert();
+		}
+	
+Today Lecture
+1 ng-content
+- compoent directive
+2 Pipe
+	- it transform the data to end user without changing its original change 
+	
+	
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
