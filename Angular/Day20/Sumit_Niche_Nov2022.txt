@@ -1,0 +1,67 @@
+Last Lecture
+1 ng-content
+	- compoent directive
+2 Pipe
+	- it transform the data to end user without changing its original change 
+	
+	{{strdetails | lowercase}}
+	{{strdetails | uppercase}}
+	{{strdetails | titlecase}}
+	{{strdetails | slice:1:15}}
+	
+	{{0.25|percent}}
+	{{0.025|percent:'1.1'}}
+	
+	{{5.765444525|number:'1.2-3'}}
+	{{5.765844525|number:'1.2-3'}}
+	{{5.765444525|number:'2.2-3'}}
+	
+	{{0.25|currency:'INR':'code'}}
+	
+	{{mydate| date:'mediumDate'}}
+	{{mydate| date:'dd-MM-yyyy hh:mm:ss'}}
+	{{mydate| date:'dd'}}
+	{{mydate| date:'yy'}}
+	
+	{{mydate| date:'dd'}}
+	
+	{{mydate| date:'longDate'|uppercase}}
+	
+	.ts file
+	
+	mydate=new Date();
+	
+Today Lecture
+1 Custom pipe
+	- PipeTransform
+	- transform 
+	- ng g p pipename
+2 Pure pipe
+3 impure pipe
+4 filtering the data 
+
+	
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
