@@ -1,0 +1,44 @@
+Last Lecture
+1 Custom pipe
+	- PipeTransform
+	- transform 
+	- ng g p pipename
+2 Pure pipe
+3 impure pipe
+4 filtering the data 
+
+Today Lecture
+1 Services
+	- It is simple class
+	- Business Logic
+	- component isolation
+	- code resulability
+	- code maintainability
+	- to connect ur backend server
+2 DI 
+
+	
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
