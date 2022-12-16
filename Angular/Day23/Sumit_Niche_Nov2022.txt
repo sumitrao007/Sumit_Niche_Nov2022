@@ -1,0 +1,99 @@
+Last Lecture
+1 Http Method
+	1 get => To get the data from backend 
+	2 post => we can send data to backend 
+	3 put => to update a particular record
+	4 delete => to delete a particular record 
+2 Http Request/Response
+Http Request 2 parts 
+		1 Http Header
+			- ip 
+			- content type
+				- json 
+				- image
+				- text
+				- pdf
+			- date
+			- http method
+			- auth token
+			
+		2 Http body
+			- data	
+				- json 
+				- text 
+				- xml
+				
+Http Response 2 parts 
+		1 Http Header
+			- ip 
+			- content type
+				- json 
+				- image
+				- text
+				- pdf
+			- date
+			- http method
+			- auth token
+			- status
+				1 2xx => succcess,ok
+				2 3xx => redirection
+				3 4xx => client side error
+				4 5xx => server side 
+			
+		2 Http body
+			- data	
+				- json 
+				- text 
+				- xml
+	
+3 https://jsonplaceholder.typicode.com/posts
+ - it is a fake service
+ - u can send post,put,delete ,get but u can not store or update or delete the record but u will get response of particular method 
+ 
+	ng g s http 
+	
+ 
+4 @Injectable({
+	provideIn:"root"
+})
+ HttpClientModule => app.module.ts 
+ constructor(private http:HttpClient)
+ 
+	return (this.http.get(this.url))
+ 
+5 Observable
+6 post 
+	getPost(obj:any){
+		return (this.http.post(this.url,obj))
+	}
+
+Today Lecture
+1 put request
+2 delete request
+3 error handling
+
+	
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
