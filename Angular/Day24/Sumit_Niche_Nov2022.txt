@@ -1,0 +1,41 @@
+Last Lecture
+1 put request
+2 delete request
+3 error handling
+
+Today Lecture
+1 Routing
+	- to navigate from one component to another component
+2 Routing Steps
+	1 configure the route 
+	2 <router-outlet>
+	3 establish the link/navigate between two component
+3 empty path
+4 wild cart operator
+5 static routing
+
+	
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
