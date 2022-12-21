@@ -1,0 +1,88 @@
+Last Lecture
+1 Send multiple parameter to component
+	{
+		path:"Page3/:id/:username",..
+	}
+	
+	<a [routerLink]="['/Page3',myid,myusername]"
+	
+	page3.ts
+	
+	private route:ActivatedRoute
+	
+	this.route.ParamMap
+	.subscribe((param:any)=>{
+	
+			....
+	})
+	
+2 Send query parameter to component
+	localhost:4200/queryparam?id=8&name=sumit
+	
+	[queryParams]="jsonobj"
+	
+	queryparam.ts
+	private route:ActivatedRoute
+	private myjson=<queryparam>{}
+	
+	this.route.queryParamMap
+	.subscribe((param:any)=>{
+		
+	})
+	
+3 Dynamic routing
+	onPage2(){
+		this.router.navigate(['/Page2',this.myid])
+	}
+	this.router.navigate(['/queryparam'],{
+		queryparams:this.myjson
+	})
+4 child routes
+	{
+		path:'products',childern:[
+			{
+				path:"",component:ProductComp
+			},
+			....
+		]
+	}
+	
+	productcomp.html
+	
+	<a routerLink="mobile">
+	
+	
+
+Today Lecture
+1 Lazy Loading
+	
+2 modify the routing
+3 send data through the service
+4 subject
+5 BehavioralSubject
+
+	
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
