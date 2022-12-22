@@ -1,0 +1,38 @@
+Last Lecture
+1 Lazy Loading
+	user,update ,delete,list
+	ng g m user --routing 
+2 modify the routing
+3 send data through the service
+4 subject
+5 BehavioralSubject
+
+Today Lecture
+1 Auth guard
+
+
+	
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
