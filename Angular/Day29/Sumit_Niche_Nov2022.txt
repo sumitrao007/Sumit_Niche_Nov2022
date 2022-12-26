@@ -1,0 +1,69 @@
+Last Lecture
+1 Overview of bootstrap
+	 - css freamwork
+	 - to make ur application attractive
+	 - to make ur application responsive
+2 Integration of bootstrap
+	1 online integration
+		index.html 
+		cdn link 
+		<head>
+			
+	2 offline integration
+		npm install bootstrap@4.6.* --save
+	style.css
+	@import '~bootstrap/dist/css/bootstrap.css';
+	
+	
+		
+
+Today Lecture
+1 Template driven form
+	- login,signup,registration,f/b
+	- all validation is done on view file 
+2 FormControl
+	- it is class
+	1 valid => true
+	2 invalid => true
+	3 touched => true
+	4 pristine => true
+	5 dirty  => true
+	6 errors => object => use any html attribute
+	
+	steps
+	1 instance of FormControl=> 
+		use ngModel=> without its notation
+		use name attribute of html element
+	2 to create template ref variable & asssign ur ngModel to template ref variable
+	3 if u want validate any html element then use errors property 
+		use required attribute of html 
+	
+	
+3 ngForm
+
+
+	
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
