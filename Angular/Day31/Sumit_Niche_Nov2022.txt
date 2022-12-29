@@ -1,0 +1,34 @@
+Last Lecture
+1 ngSubmit
+2 ngValue
+
+Today Lecture
+1 Change detection
+
+
+
+	
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
